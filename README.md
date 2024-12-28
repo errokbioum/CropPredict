@@ -149,6 +149,9 @@ volumes:
 Voici un aperçu du projet qui englobe l'ensemble des fonctionnalités que notre projet offre:
 
 
+https://github.com/user-attachments/assets/95e6f84b-c914-41e5-a1ba-ca446e3ff708
+
+
 
 # Limitation et perspective 
 
@@ -156,6 +159,9 @@ L'application actuelle a été développée avec un modèle d'apprentissage auto
 L'une des principales perspectives pour améliorer cette application est d'élargir le modèle en l'entraînant sur un jeu de données plus large, comprenant des informations sur plusieurs pays et régions. Cela permettra d'améliorer la précision des prédictions et des recommandations, en prenant en compte une variété de conditions climatiques et agricoles à l'échelle mondiale.
 
 ![WhatsApp Image 2024-12-28 at 04 03 19](https://github.com/user-attachments/assets/1592d73b-1884-4164-be7b-d42a69d2bf08)
+
+
+
 
 
 
