@@ -1,0 +1,15 @@
+.card-profile-image {
+  position: relative;
+  z-index: 10; /* Plus grand que les autres éléments */
+}
+  .card-profile-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;  /* Assure-toi que l'image est au-dessus des autres éléments */
+  }
+  .section-profile-cover {
+    position: relative;
+    z-index: 1;  /* Moins élevé que l'image */
+  }

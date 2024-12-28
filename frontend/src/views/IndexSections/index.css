@@ -1,0 +1,143 @@
+/* Import de la police */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap');
+
+/* Section et bloc texte */
+.section-hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Hauteur de la section */
+}
+.custom-z-index {
+  z-index: 99;
+}
+.text-block {
+  background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+  padding: 30px;
+  border-radius: 15px;
+  width: 75%;
+  max-width: 500px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 4px 6px rgb(0, 0, 0);
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-content {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #6f4f37; /* Marron */
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Texte global */
+.smaller-font-global {
+  font-size: 0.875rem;
+  color: #000; /* Noir */
+}
+
+/* Texte accentué */
+.text-success {
+  color: #8B4513 !important; /* Marron */
+}
+
+.animated-brilliant-text span {
+  color: #8B4513; /* Marron */
+}
+
+/* Boutons */
+.btn-wrapper button {
+  background-color: #8B4513;
+  color: #fff;
+}
+
+.btn-wrapper button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Liens */
+a {
+  color: #8B4513;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Animation fadeIn */
+.animated-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Hero.css */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); /* Commence à droite de l'écran */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* Se déplace vers sa position normale */
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  animation: slideInFromRight 1s ease-out;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  animation: fadeIn 1s ease-in-out;
+}
+.black-title {
+  color: black;
+}
+/* Animation pour glisser les images */
+.slide-in {
+  transition: transform 1s ease-in-out;
+}
+
+.slide-out {
+  transition: transform 1s ease-in-out;
+  transform: translateX(-100%);
+}

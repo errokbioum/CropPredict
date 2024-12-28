@@ -1,0 +1,40 @@
+
+
+  /* Container for the logo (text and image) */
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Align the text and image vertically */
+  justify-content: flex-start;
+}
+
+/* Styling for the image next to the text */
+.logo-image {
+  width: 50px; /* Adjust the size of the image */
+  height: 50px;
+  
+   /* Space between the image and text */
+}
+
+/* Styling for the logo text */
+.logo-text {
+    font-size: 1rem; /* Larger text for better visibility */
+    font-weight: 700;
+    color: #ffffff; /* White text color */
+    text-transform: uppercase;
+    letter-spacing: 5px; /* Wider letter spacing */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    display: inline-block;
+    position: relative;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Add shadow for depth */
+    background: linear-gradient(45deg, #6e7dff, #42d1b3); /* Gradient background */
+    -webkit-background-clip: text; /* Apply background gradient to text */
+    background-clip: text; /* Apply background gradient to text */
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.navbar-logo:hover .logo-text {
+  transform: scale(1.1); /* Slightly enlarge logo text on hover */
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6); /* More intense shadow on hover */
+}
+
+  
