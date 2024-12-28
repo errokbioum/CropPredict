@@ -4,8 +4,7 @@
 Ce projet vise à développer une application web qui utilise des modèles de machine learning pour prédire les conditions agricoles et recommander des actions optimisées, telles que le choix des cultures à planter, l'irrigation et la fertilisation. 
 Les données météorologiques en temps réel, fournies par l'API OpenWeather sont intégrées dans une API centralisée pour générer des recommandations et prédiction  personnalisées. L'application est construite avec un backend Spring Boot et une interface frontend interactive en React.
 
-![d7059ee1c16115935b700c2a5af11255_WhatsApp%20Image%202024-12-28%20at%2005 03 07](https://github.com/user-attachments/assets/891f71ed-d0ea-4a2c-b373-7c88e0f37551)
-
+![Uploading WhatsApp Image 2024-12-28 at 05.03.07.jpeg…]()
 
 
 
