@@ -1,0 +1,66 @@
+
+
+services:
+  front:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    depends_on:
+      - cropapp2
+    environment:
+      - REACT_APP_API_URL=http://localhost:9192
+
+  cropapp2:
+    build:
+      context: ./Cropapp2
+    ports:
+      - "9192:9192"
+    networks:
+      - app-network
+    depends_on:
+      - mysql
+      - apiprediction1
+    environment:
+      - SPRING_PROFILES_ACTIVE=local
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/cropyield?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - FLASK_API_URL=http://apiprediction1:5000
+      - SPRING_MAIL_USERNAME=errokbi200@gmail.com
+      - SPRING_MAIL_PASSWORD=ckhw pjho cvwo mami
+      - SPRING_SECURITY_USER_NAME=testuser
+      - SPRING_SECURITY_USER_PASSWORD=testpassword
+
+  apiprediction1:
+    build:
+      context: ./apiprediction1
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cropyield
+    ports:
+      - "3307:3306"
+    networks:
+      - app-network
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
