@@ -36,7 +36,7 @@ services:
 
   apiprediction1:
     build:
-      context: ./apiprediction1
+      context: ./apiPrediction
     ports:
       - "5000:5000"
     networks:
