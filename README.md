@@ -16,7 +16,7 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 - [Limitation et perspective ](#limitation-et-perspective)  
 - [Équipe de Projet](#equipe-de-projet)  
  
-
+---
 
 
 
@@ -67,7 +67,9 @@ L'utilisateur interagit avec une interface frontend développée en React, qui e
 
 ![image](https://github.com/user-attachments/assets/d7c09a47-4155-4858-a358-9346a9588369)
 
-### Structure de service Flask :  
+### Structure de service Flask :
+
+
 Voici la structure du service Flask.  
 
 ![image](https://github.com/user-attachments/assets/06efb5f1-2597-4eb3-b784-ebb5d934a3ee)
@@ -154,7 +156,7 @@ volumes:
 
 
 
-
+---
 # Aperçu du projet
 Voici un aperçu du projet qui englobe l'ensemble des fonctionnalités que notre projet offre:
 
@@ -184,7 +186,7 @@ L'une des principales perspectives pour améliorer cette application est d'élar
 
 
 
-
+---
 # Equipe de projet
 Voici Notre équipe de projet 
 Errokbi oumaima:errokbi200@gmail.com
