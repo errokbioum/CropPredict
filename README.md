@@ -74,13 +74,14 @@ L'utilisateur interagit avec une interface frontend développée en React, qui e
 
 Voici la structure du service Flask.  
 
-![chgr2](https://github.com/user-attachments/assets/02d73209-a32f-4c37-b871-3d032d56e572)
+<img src="https://github.com/user-attachments/assets/02d73209-a32f-4c37-b871-3d032d56e572" alt="chgr2" width="600" />
 
 
 ### Structure de Backend SpringBoot :  
-Voici la structure du backend Spring Boot.  
+Voici la structure du backend Spring Boot. 
+<img src="https://github.com/user-attachments/assets/df00d94d-e3f6-4d27-b28b-1e98eb7bc6b0" alt="chgr2" width="850" />
 
-![GGG](https://github.com/user-attachments/assets/df00d94d-e3f6-4d27-b28b-1e98eb7bc6b0)
+
 
 
 ## Configuration Docker 
