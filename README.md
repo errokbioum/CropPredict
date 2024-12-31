@@ -43,27 +43,22 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 ## Technologies et Outils Utilisés
 
 ### *Langage utlisée* : 
-
-| *Technologie/Framework*          | *Description*                                                                                             |
-|------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 🐍 *Python*                      | Fournit une API backend pour connecter les fonctionnalités d'apprentissage automatique et gérer les requêtes. |
-| ☕ *Java*                        | Langage principal utilisé pour le développement backend avec Spring Boot.                                   |
-| 💻 *JavaScript*                 | Langage utilisé côté client pour la logique de l'application frontend.                                      |
-| 🌦️ *API OpenWeather*           | Utilisée pour récupérer les données météorologiques nécessaires aux prédictions et recommandations agricoles. |
-| 🤖 *ML - Prédiction*            | Implémente des modèles d'apprentissage automatique pour prévoir les rendements agricoles en fonction des données saisies. |
-| 📊 *ML - Recommandation*        | Génère des recommandations personnalisées pour des cultures agricoles optimales basées sur les données du sol et du climat. |
-| 🍃 *Spring Boot*                | Framework backend pour la création de services REST et la gestion des données avec la base MySQL.           |
-| 🔒 *Spring Security*            | Assure la sécurité des endpoints avec l'authentification et l'autorisation des utilisateurs.               |
-| 📧 *Spring Boot Starter Mail*   | Permet l'envoi de résultats de prédictions et de recommandations personnalisées par e-mail.                |
-| 🔑 *JWT (JSON Web Token)*       | Utilisé pour la gestion sécurisée des sessions utilisateur et des autorisations.                           |
-| 🗄️ *Base de données MySQL*     | Stocke les données des utilisateurs, prédictions, recommandations et historiques.                          |
-| ⚛️ *ReactJS*                   | Framework frontend pour construire une interface utilisateur interactive et réactive.                      |
-| 📈 *React-chartjs*              | Permet de visualiser les données sous forme de graphiques interactifs et dynamiques.                       |
-| 🎨 *Bootstrap*                  | Utilisé pour créer une interface utilisateur responsive et esthétique grâce à ses composants CSS et JS.    |
-| 🐍 *Flask*                      | Fournit une API backend pour connecter les fonctionnalités d'apprentissage automatique et gérer les requêtes. |
-
-
-
+| **Section**      | **Technologie/Framework**       | **Description**                                                                                             |
+|-------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Backend**       | ☕ *Java*                      | Langage principal utilisé pour le développement backend avec Spring Boot.                                   |
+|                   | 🍃 *Spring Boot*              | Framework backend pour la création de services REST et la gestion des données avec la base MySQL.           |
+|                   | 🔒 *Spring Security*          | Assure la sécurité des endpoints avec l'authentification et l'autorisation des utilisateurs.               |
+|                   | 🔑 *JWT (JSON Web Token)*     | Utilisé pour la gestion sécurisée des sessions utilisateur et des autorisations.                           |
+|                   | 🗄️ *Base de données MySQL*   | Stocke les données des utilisateurs, prédictions, recommandations et historiques.                          |
+|                   | 📧 *Spring Boot Starter Mail* | Permet l'envoi de résultats de prédictions et de recommandations personnalisées par e-mail.                |
+| **Service**       | 🐍 *Python*                   | Fournit des fonctionnalités d'apprentissage automatique et gère les requêtes nécessaires.                  |
+|                   | 🐍 *Flask*                    | Framework léger pour connecter les fonctionnalités d'apprentissage automatique et gérer les requêtes.      |
+|                   | 🤖 *ML - Prédiction*          | Implémente des modèles d'apprentissage automatique pour prévoir les rendements agricoles en fonction des données saisies. |
+|                   | 📊 *ML - Recommandation*      | Génère des recommandations personnalisées pour des cultures agricoles optimales basées sur les données du sol et du climat. |
+|                   | 🌦️ *API OpenWeather*         | Utilisée pour récupérer les données météorologiques nécessaires aux prédictions et recommandations agricoles. |
+| **Frontend**      | ⚛️ *ReactJS*                 | Framework frontend pour construire une interface utilisateur interactive et réactive.                      |
+|                   | 🎨 *Bootstrap*                | Utilisé pour créer une interface utilisateur responsive et esthétique grâce à ses composants CSS et JS.    |
+|                   | 📈 *React-chartjs*            | Permet de visualiser les données sous forme de graphiques interactifs et dynamiques.                       |
 
 # Structure général du projet 
 
