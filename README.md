@@ -176,9 +176,9 @@ bash nvm install 14.11.0
 Python 3.9.10 :
 ```
 Installez Python 3.9.10 depuis python.org.
-Configuration du Backend (Spring Boot) :
+
 Cloner le projet :
-Exécutez la commande suivante pour cloner le dépôt :
+
 ```
 bash git clone <repository_url> && cd <project_folder>
 ```
