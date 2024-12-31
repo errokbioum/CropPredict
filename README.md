@@ -156,7 +156,110 @@ volumes:
   mysql-data
 ```
 
+## Démarrage
 
+
+
+- Prérequis :
+*Git* :
+Assurez-vous d’avoir Git installé. Si ce n’est pas le cas, téléchargez et installez-le depuis git-scm.com.
+*XAMPP* :
+
+Installez XAMPP depuis apachefriends.org.
+Lancez les serveurs Apache et MySQL dans XAMPP.
+Assurez-vous que MySQL utilise le port 3306.
+Node Version Manager (NVM) :
+Installez NVM depuis *github.com/nvm-sh/nvm.*
+Utilisez NVM pour installer la version 14.11.0 de Node.js :
+```
+bash nvm install 14.11.0
+Python 3.9.10 :
+```
+Installez Python 3.9.10 depuis python.org.
+Configuration du Backend (Spring Boot) :
+Cloner le projet :
+Exécutez la commande suivante pour cloner le dépôt :
+```
+bash git clone <repository_url> && cd <project_folder>
+```
+Installer les dépendances du Backend :
+Allez dans le dossier du backend et exécutez la commande suivante pour installer les dépendances :
+```
+bash mvn clean install
+```
+- Exécuter le Backend Spring Boot :
+Lancez les serveurs Apache et *MySQL* dans *XAMPP.*
+Exécutez l'application Spring Boot avec :
+```
+bash mvn spring-boot:run
+```
+Vérifiez que le backend fonctionne en visitant *http://localhost:9192* dans votre navigateur.
+Configuration de l'API Flask (en écoute sur le port 5000) :
+Installer les dépendances Python :
+
+Créez un environnement virtuel Python et installez Flask ainsi que toutes les autres dépendances nécessaires :
+```
+bash python3 -m venv venv
+```
+Activez l’environnement virtuel :
+```
+Sur macOS/Linux : bash source venv/bin/activate
+Sur Windows : bash venv\Scripts\activate
+```
+Installer les dépendances Python depuis requirements.txt 
+
+
+Exécutez la commande suivante pour installer les dépendances à partir du fichier requirements.txt :
+```
+bash pip install -r requirements.txt
+```
+Exécuter l'API Flask :
+
+Après avoir configuré Flask, exécutez l'API Flask avec :
+```
+bash python app.py
+```
+L'API Flask sera accessible sur http://localhost:5000.
+Configuration du Frontend (React) :
+Installer React :
+Ouvrez un terminal pour le projet frontend et assurez-vous que NVM utilise la version 14.11.0 de Node.js :
+```
+bash nvm use 14.11.0
+```
+Installez React globalement avec la commande suivante :
+```
+bash npm install -g create-react-app
+```
+Créer une application React :
+
+Exécutez la commande suivante pour créer une nouvelle application React :
+```
+bash npx create-react-app .
+```
+Installer les dépendances du Frontend :
+Allez dans le dossier du projet frontend et installez les dépendances nécessaires avec :
+```
+bash npm install
+```
+Si vous rencontrez des erreurs pendant l'installation, utilisez :
+```
+bash npm install --save --legacy-peer-deps
+```
+Exécuter le Frontend :
+
+Après avoir installé les dépendances, lancez le serveur de développement React avec :
+bash npm start
+Votre application React sera désormais disponible sur *http://localhost:3000.*
+
+Configuration Full-Stack :
+| **Composant**          | **Technologie**    | **URL**                 |
+|------------------------|--------------------|-------------------------|
+| Frontend               | React              | http://localhost:3000   |
+| Backend Spring Boot    | Spring Boot        | http://localhost:9192   |
+| API Flask              | Flask              | http://localhost:5000   |
+
+
+Maintenant, votre projet full-stack devrait être en cours d'exécution localement. Si vous rencontrez des problèmes, vérifiez les journaux de la console pour des messages d'erreur et assurez-vous que toutes les dépendances et prérequis sont correctement installés.
 
 
 
