@@ -161,12 +161,10 @@ volumes:
 
 
 - **Prérequis** :
-*Git* :
-Assurez-vous d’avoir Git installé. Si ce n’est pas le cas, téléchargez et installez-le depuis git-scm.com.
-*XAMPP* :
 
-Installez XAMPP depuis apachefriends.org.
-Lancez les serveurs Apache et MySQL dans XAMPP.
+- *Git* :
+Assurez-vous d’avoir Git installé. Si ce n’est pas le cas, téléchargez et installez-le depuis git-scm.com.
+- *XAMPP* : Installez XAMPP depuis *apachefriends.org* et  Lancez les serveurs Apache et MySQL dans XAMPP.
 Assurez-vous que MySQL utilise le port 3306.
 Node Version Manager (NVM) :
 Installez NVM depuis *github.com/nvm-sh/nvm.*
