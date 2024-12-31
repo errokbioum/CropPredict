@@ -6,6 +6,18 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 
 ![WhatsApp Image 2024-12-28 at 05 03 07](https://github.com/user-attachments/assets/7b56f643-575b-45f0-a975-51b45ddd67ce)
 
+# Table des Matières
+
+1. [Fonctionnalités principales](#fonctionnalités-principales)  
+2. [Technologies et Outils Utilisés](#technologies-et-outils-utilisés)  
+3. [Structure général du projet](#structure-général-du-projet) 
+4. [Configuration Docker](#configuration-docker) 
+6. [Aperçu du projet](#aperçu-du-projet)  
+7. [Limitation et perspective ](#limitation-et-perspective)  
+9. [Équipe de Projet](#equipe-de-projet)  
+ 
+
+
 
 
 # Fonctionnalités principales
@@ -50,7 +62,7 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 | 🎨 *Bootstrap*                  | Utilisé pour créer une interface utilisateur responsive et esthétique grâce à ses composants CSS et JS.    |
 | 🐍 *Flask*                      | Fournit une API backend pour connecter les fonctionnalités d'apprentissage automatique et gérer les requêtes. |
 
-# Structure général du projet  : 
+#  Structure général du projet : 
 
 L'utilisateur interagit avec une interface frontend développée en React, qui envoie des requêtes au backend construit avec Spring Boot. Ce backend joue le rôle de passerelle, recevant les requêtes du frontend et les transmettant au service Flask si des traitements spécifiques, comme des prédictions ou des recommandations via des modèles de machine learning (ML), sont nécessaires.
 
