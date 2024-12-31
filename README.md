@@ -62,7 +62,10 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 | 🎨 *Bootstrap*                  | Utilisé pour créer une interface utilisateur responsive et esthétique grâce à ses composants CSS et JS.    |
 | 🐍 *Flask*                      | Fournit une API backend pour connecter les fonctionnalités d'apprentissage automatique et gérer les requêtes. |
 
-#  Structure général du projet : 
+
+
+
+# Structure général du projet 
 
 L'utilisateur interagit avec une interface frontend développée en React, qui envoie des requêtes au backend construit avec Spring Boot. Ce backend joue le rôle de passerelle, recevant les requêtes du frontend et les transmettant au service Flask si des traitements spécifiques, comme des prédictions ou des recommandations via des modèles de machine learning (ML), sont nécessaires.
 
