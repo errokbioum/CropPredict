@@ -8,13 +8,13 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 
 # Table des Matières
 
-1. [Fonctionnalités principales](#fonctionnalités-principales)  
-2. [Technologies et Outils Utilisés](#technologies-et-outils-utilisés)  
-3. [Structure général du projet](#structure-général-du-projet) 
-4. [Configuration Docker](#configuration-docker) 
-6. [Aperçu du projet](#aperçu-du-projet)  
-7. [Limitation et perspective ](#limitation-et-perspective)  
-9. [Équipe de Projet](#equipe-de-projet)  
+- [Fonctionnalités principales](#fonctionnalités-principales)  
+- [Technologies et Outils Utilisés](#technologies-et-outils-utilisés)  
+- [Structure général du projet](#structure-général-du-projet) 
+- [Configuration Docker](#configuration-docker) 
+- [Aperçu du projet](#aperçu-du-projet)  
+- [Limitation et perspective ](#limitation-et-perspective)  
+- [Équipe de Projet](#equipe-de-projet)  
  
 
 
