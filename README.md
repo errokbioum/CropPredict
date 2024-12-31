@@ -65,19 +65,23 @@ Les données météorologiques en temps réel, fournies par l'API OpenWeather so
 L'utilisateur interagit avec une interface frontend développée en React, qui envoie des requêtes au backend construit avec Spring Boot. Ce backend joue le rôle de passerelle, recevant les requêtes du frontend et les transmettant au service Flask si des traitements spécifiques, comme des prédictions ou des recommandations via des modèles de machine learning (ML), sont nécessaires.
 
 
-![image](https://github.com/user-attachments/assets/d7c09a47-4155-4858-a358-9346a9588369)
+![chggr](https://github.com/user-attachments/assets/25625c28-d9f8-4d6c-b9b9-42ff33bb2b54)
+
+
 
 ### Structure de service Flask :
 
 
 Voici la structure du service Flask.  
 
-![image](https://github.com/user-attachments/assets/06efb5f1-2597-4eb3-b784-ebb5d934a3ee)
+![chgr2](https://github.com/user-attachments/assets/02d73209-a32f-4c37-b871-3d032d56e572)
+
 
 ### Structure de Backend SpringBoot :  
 Voici la structure du backend Spring Boot.  
 
-![image](https://github.com/user-attachments/assets/2292c06f-5a2c-418a-be80-be4e18467de4)
+![GGG](https://github.com/user-attachments/assets/df00d94d-e3f6-4d27-b28b-1e98eb7bc6b0)
+
 
 ## Configuration Docker 
 
