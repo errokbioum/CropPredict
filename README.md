@@ -188,7 +188,6 @@ Allez dans le dossier du backend et exécutez la commande suivante pour installe
 ```
 bash mvn clean install
 ```
-Exécuter le Backend Spring Boot :
 Lancez les serveurs Apache et *MySQL* dans *XAMPP.*
 Exécutez l'application Spring Boot avec :
 ```
@@ -209,7 +208,6 @@ Sur macOS/Linux : bash source venv/bin/activate
 Sur Windows : bash venv\Scripts\activate
 ```
 Installer les dépendances Python depuis requirements.txt 
-
 
 Exécutez la commande suivante pour installer les dépendances à partir du fichier requirements.txt :
 ```
