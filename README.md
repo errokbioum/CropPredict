@@ -160,7 +160,7 @@ volumes:
 
 
 
-- Prérequis :
+- **Prérequis** :
 *Git* :
 Assurez-vous d’avoir Git installé. Si ce n’est pas le cas, téléchargez et installez-le depuis git-scm.com.
 *XAMPP* :
@@ -182,21 +182,23 @@ Exécutez la commande suivante pour cloner le dépôt :
 ```
 bash git clone <repository_url> && cd <project_folder>
 ```
+**1.** **Etape du backend**: 
 Installer les dépendances du Backend :
 Allez dans le dossier du backend et exécutez la commande suivante pour installer les dépendances :
 ```
 bash mvn clean install
 ```
-- Exécuter le Backend Spring Boot :
+Exécuter le Backend Spring Boot :
 Lancez les serveurs Apache et *MySQL* dans *XAMPP.*
 Exécutez l'application Spring Boot avec :
 ```
 bash mvn spring-boot:run
 ```
 Vérifiez que le backend fonctionne en visitant *http://localhost:9192* dans votre navigateur.
-Configuration de l'API Flask (en écoute sur le port 5000) :
-Installer les dépendances Python :
+Configuration de l'API Flask (en écoute sur le port 5000) 
 
+**2.** **Etape de service python**: 
+Installer les dépendances Python :
 Créez un environnement virtuel Python et installez Flask ainsi que toutes les autres dépendances nécessaires :
 ```
 bash python3 -m venv venv
@@ -220,6 +222,8 @@ Après avoir configuré Flask, exécutez l'API Flask avec :
 bash python app.py
 ```
 L'API Flask sera accessible sur http://localhost:5000.
+
+**3.** **Etape de Front-end**
 Configuration du Frontend (React) :
 Installer React :
 Ouvrez un terminal pour le projet frontend et assurez-vous que NVM utilise la version 14.11.0 de Node.js :
