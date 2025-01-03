@@ -28,8 +28,7 @@ crop_recommendation_model_path = './models/RandomForest.pkl'
 crop_yield_model_path = "./models/DecisionTree.pkl"
 crop_recommendation_model = pickle.load(open(crop_recommendation_model_path, "rb"))
 crop_yield_model = pickle.load(open(crop_yield_model_path, "rb"))
-#crop_recommendation_model = joblib.load(crop_recommendation_model_path)
-#crop_yield_model = joblib.load(crop_yield_model_path)
+
 crops = np.load('crops.npy', allow_pickle=True)
 
 
