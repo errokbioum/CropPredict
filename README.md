@@ -77,6 +77,19 @@ Voici la structure du service Flask.
 <img src="https://github.com/user-attachments/assets/02d73209-a32f-4c37-b871-3d032d56e572" alt="chgr2" width="600" />
 
 
+Les métrique des modeles utilisés :
+
+- ML de Recommendation
+
+
+<img src="https://github.com/user-attachments/assets/48fa5139-7253-4037-89cc-13db13af23fd" alt="chgr2" width="600" />
+
+- ML de Prédiction
+
+
+<img src="https://github.com/user-attachments/assets/3df3b2f7-2d42-487d-aace-cc688de30dc0" alt="chgr2" width="600" />
+
+
 ### Structure de Backend SpringBoot :  
 Voici la structure du backend Spring Boot. 
 <img src="https://github.com/user-attachments/assets/df00d94d-e3f6-4d27-b28b-1e98eb7bc6b0" alt="chgr2" width="850" />
