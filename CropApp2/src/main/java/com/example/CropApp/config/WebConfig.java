@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://front:3000") // Remplace par l'URL de ton frontend React
+                .allowedOrigins("http://front:3000") 
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*");
 
